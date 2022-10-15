@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  .card {
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+
+    padding: 16px;
+    text-align: center;
+    background-color:rgb(91, 152, 243);
+  }
+.column .card img{
+  cursor: pointer;
+}
+ 
+.card:hover {
+    box-shadow: 0 16px 16px 0 rgba(6, 129, 236, 0.2);
+    background-color: rgb(68, 107, 151);
+}
+
+ 

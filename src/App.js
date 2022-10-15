@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// import Userdetails from './components/userdetails';
+// import Showdetails from './components/showdetails';
+import Student1 from './component1/student1';
+// import Student4 from './component1/student4';
+
+// export const Context = createContext()
 function App() {
+  //let name = "Boorni"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Router>
+        <Routes>
+          <Route exact path='/' element={<Userdetails />} />
+          <Route exact path='/:id' element={<Showdetails />} />
+        </Routes>
+      </Router>  */}
+       {/* <Context.Provider value={name}>
+        <Context1/>
+    </Context.Provider>*/}
+      <Student1/> 
+
     </div>
   );
 }
