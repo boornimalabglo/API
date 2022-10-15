@@ -11,7 +11,7 @@ return(
     <>
     <data.Provider value={name}>
         <Student2/>
-        {/* <Student5/> */}
+        <Student5/>
     </data.Provider>
     
     </>
